@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/169_MajorityElement/169_MajorityElement.iml" filepath="$PROJECT_DIR$/169_MajorityElement/169_MajorityElement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_TwoSum/1_TwoSum.iml" filepath="$PROJECT_DIR$/1_TwoSum/1_TwoSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
     </modules>
   </component>
