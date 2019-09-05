@@ -20,7 +20,7 @@ public class Soulution {
         while (i < intervals.length){
             int left = intervals[i][0];
             int right = intervals[i][1];
-            while (i < intervals.length -1 && right > intervals[i+1][0]){
+            while (i < intervals.length -1 && right >= intervals[i+1][0]){
                 right = Math.max(right,intervals[i+1][1]);
                 i++;
             }
