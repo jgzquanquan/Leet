@@ -1,3 +1,33 @@
+
+*~
+.idea/
+*.iml
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse
+.metadata/
+.recommenders/
+.classpath
+.project
+.settings
+/target/
+**/target
+
+# Log
+/log/
+*.log
+/bin/
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -15,10 +45,11 @@ hs_err_pid*
 .classpath
 .project
 .settings
-/out/
+/target/
 
 # Log
 /log/
 *.log
+*.log.*
 /bin/
 /.apt_generated/
