@@ -11,7 +11,7 @@ public class Solution {
                 int complement = target - nums[i];
                 if (map.containsKey(complement) && map.get(complement) != i) {
                     return new int[]{i, map.get(complement)};
-                }
+                 }
             }
             throw new IllegalArgumentException("No two sum solution");
         }
