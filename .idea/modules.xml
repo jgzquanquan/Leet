@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/141_LinkedListCycle/141_LinkedListCycle.iml" filepath="$PROJECT_DIR$/141_LinkedListCycle/141_LinkedListCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/141_LinkedListCycle/141_LinkedListCycle.iml" filepath="$PROJECT_DIR$/linkedlist/141_LinkedListCycle/141_LinkedListCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/142_LinkedListCycle2/142_LinkedListCycle2.iml" filepath="$PROJECT_DIR$/linkedlist/142_LinkedListCycle2/142_LinkedListCycle2.iml" />
       <module fileurl="file://$PROJECT_DIR$/169_MajorityElement/169_MajorityElement.iml" filepath="$PROJECT_DIR$/169_MajorityElement/169_MajorityElement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/19_RemoveNthNodeFromEndofList/19_RemoveNthNodeFromEndofList.iml" filepath="$PROJECT_DIR$/linkedlist/19_RemoveNthNodeFromEndofList/19_RemoveNthNodeFromEndofList.iml" />
       <module fileurl="file://$PROJECT_DIR$/1_TwoSum/1_TwoSum.iml" filepath="$PROJECT_DIR$/1_TwoSum/1_TwoSum.iml" />
-      <module fileurl="file://$PROJECT_DIR$/206_ReverseLinkedList/206_ReverseLinkedList.iml" filepath="$PROJECT_DIR$/206_ReverseLinkedList/206_ReverseLinkedList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/24_SwapNodesInPairs/24_SwapNodesInPairs.iml" filepath="$PROJECT_DIR$/24_SwapNodesInPairs/24_SwapNodesInPairs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/206_ReverseLinkedList/206_ReverseLinkedList.iml" filepath="$PROJECT_DIR$/linkedlist/206_ReverseLinkedList/206_ReverseLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/21Merge Two Sorted Lists.iml" filepath="$PROJECT_DIR$/linkedlist/21Merge Two Sorted Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/21_MergeTwoSortedLists/21_MergeTwoSortedLists.iml" filepath="$PROJECT_DIR$/linkedlist/21_MergeTwoSortedLists/21_MergeTwoSortedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/24_SwapNodesInPairs/24_SwapNodesInPairs.iml" filepath="$PROJECT_DIR$/linkedlist/24_SwapNodesInPairs/24_SwapNodesInPairs.iml" />
       <module fileurl="file://$PROJECT_DIR$/28_StrStr/28_StrStr.iml" filepath="$PROJECT_DIR$/28_StrStr/28_StrStr.iml" />
       <module fileurl="file://$PROJECT_DIR$/56_MergeIntervals/56_MergeIntervals.iml" filepath="$PROJECT_DIR$/56_MergeIntervals/56_MergeIntervals.iml" />
       <module fileurl="file://$PROJECT_DIR$/75_SortColors/75_SortColors.iml" filepath="$PROJECT_DIR$/75_SortColors/75_SortColors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/876_MiddleoftheLinkedList/876_MiddleoftheLinkedList.iml" filepath="$PROJECT_DIR$/linkedlist/876_MiddleoftheLinkedList/876_MiddleoftheLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/92_ReverseLinkedList2/92_ReverseLinkedList2.iml" filepath="$PROJECT_DIR$/linkedlist/92_ReverseLinkedList2/92_ReverseLinkedList2.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/linkedlist/linkedlist.iml" />
     </modules>
   </component>
 </project>
