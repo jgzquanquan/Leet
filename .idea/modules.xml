@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/linkedlist/19_RemoveNthNodeFromEndofList/19_RemoveNthNodeFromEndofList.iml" filepath="$PROJECT_DIR$/linkedlist/19_RemoveNthNodeFromEndofList/19_RemoveNthNodeFromEndofList.iml" />
       <module fileurl="file://$PROJECT_DIR$/1_TwoSum/1_TwoSum.iml" filepath="$PROJECT_DIR$/1_TwoSum/1_TwoSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/linkedlist/206_ReverseLinkedList/206_ReverseLinkedList.iml" filepath="$PROJECT_DIR$/linkedlist/206_ReverseLinkedList/206_ReverseLinkedList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/linkedlist/21Merge Two Sorted Lists.iml" filepath="$PROJECT_DIR$/linkedlist/21Merge Two Sorted Lists.iml" />
       <module fileurl="file://$PROJECT_DIR$/linkedlist/21_MergeTwoSortedLists/21_MergeTwoSortedLists.iml" filepath="$PROJECT_DIR$/linkedlist/21_MergeTwoSortedLists/21_MergeTwoSortedLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/linkedlist/24_SwapNodesInPairs/24_SwapNodesInPairs.iml" filepath="$PROJECT_DIR$/linkedlist/24_SwapNodesInPairs/24_SwapNodesInPairs.iml" />
       <module fileurl="file://$PROJECT_DIR$/28_StrStr/28_StrStr.iml" filepath="$PROJECT_DIR$/28_StrStr/28_StrStr.iml" />
@@ -16,14 +15,14 @@
       <module fileurl="file://$PROJECT_DIR$/75_SortColors/75_SortColors.iml" filepath="$PROJECT_DIR$/75_SortColors/75_SortColors.iml" />
       <module fileurl="file://$PROJECT_DIR$/linkedlist/876_MiddleoftheLinkedList/876_MiddleoftheLinkedList.iml" filepath="$PROJECT_DIR$/linkedlist/876_MiddleoftheLinkedList/876_MiddleoftheLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/linkedlist/92_ReverseLinkedList2/92_ReverseLinkedList2.iml" filepath="$PROJECT_DIR$/linkedlist/92_ReverseLinkedList2/92_ReverseLinkedList2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binarysearch/binarysearch.iml" filepath="$PROJECT_DIR$/binarysearch/binarysearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/divide/divide.iml" filepath="$PROJECT_DIR$/divide/divide.iml" />
-      <module fileurl="file://$PROJECT_DIR$/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/linkedlist/linkedlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/map/map.iml" filepath="$PROJECT_DIR$/map/map.iml" />
       <module fileurl="file://$PROJECT_DIR$/queue/queue.iml" filepath="$PROJECT_DIR$/queue/queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/sort/sort.iml" filepath="$PROJECT_DIR$/sort/sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/stack/stack.iml" filepath="$PROJECT_DIR$/stack/stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/tree/tree.iml" filepath="$PROJECT_DIR$/tree/tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree/treeimp/treeimp.iml" filepath="$PROJECT_DIR$/tree/treeimp/treeimp.iml" />
     </modules>
   </component>
 </project>
