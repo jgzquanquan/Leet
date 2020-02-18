@@ -2,6 +2,7 @@ import java.io.FileOutputStream;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Deque;
 
 public class SlidingWindowMaximum {
     public int[] maxSlidingWindow(int[] nums, int k) {
@@ -27,6 +28,32 @@ public class SlidingWindowMaximum {
             if (i>=k-1){
                 res[i+1-k]=nums[deque.getFirst()];
             }
+        }
+        return res;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    public int[] maxSlidingWindow1(int[] nums, int k) {
+        int n = nums.length;
+        if (n*k==0) return new int[0];
+        int[] res = new int[n-k+1];
+        Deque<Integer> deque = new ArrayDeque<>();
+        for (int i=0;i<n;i++){
+            while (!deque.isEmpty() && deque.peek() < i-k+1)
+                deque.poll();
+            while (!deque.isEmpty() && nums[deque.peekLast()] < nums[i])
+                deque.pollLast();
+            deque.offer(i);
+            if (i>=k-1) res[i+1-k] = nums[deque.peek()];
         }
         return res;
     }
