@@ -29,4 +29,24 @@ public class ClimbingStairs {
         }
         return dp[n];
     }
+
+    //   动态规划
+    public int climbStairs3(int n) {
+        int[]mem = new int[n+1];
+        return recur(0,n,mem);
+    }
+
+    private int recur(int i, int n, int[] mem) {
+        if (i>n){
+            return 0;
+        }
+        if (i==n){
+            return 1;
+        }
+        if (mem[i]>0){
+            return mem[i];
+        }
+        mem[i] = recur(i+1,n,mem) + recur(i+2,n,mem);
+        return mem[i];
+    }
 }
