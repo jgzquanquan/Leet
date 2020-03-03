@@ -8,7 +8,6 @@ public class MinStack {
     /** initialize your data structure here. */
     private Stack<Integer> stack;
     private Stack<Integer> minStack;
-    private int min;
     public MinStack() {
         stack = new Stack<>();
         minStack = new Stack<>();

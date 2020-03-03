@@ -27,8 +27,10 @@ public class GroupAnagrams {
             Arrays.fill(arr,0);
             for (int i=0;i<s.length();i++) arr[s.charAt(i)-'a']++;
             StringBuilder sb = new StringBuilder();
-            sb.append('#');
-            for (int i: arr) sb.append(i);
+            for (int i: arr) {
+                sb.append('#');
+                sb.append(i);
+            }
             String key = sb.toString();
             if (!map.containsKey(key)) map.put(key,new ArrayList());
             map.get(key).add(s);
