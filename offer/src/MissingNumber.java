@@ -21,4 +21,23 @@ public class MissingNumber {
         }
         return -1;
     }
+
+    public int missingNumber1(int[] nums) {
+        int left = 0, right = nums.length;
+        while (left < right){
+            int mid = (left + right) >> 1;
+            if (nums[mid] == mid){
+                left = mid + 1;
+            }else {
+                if (mid == 0 || nums[mid-1] == mid - 1){
+                    return mid;
+                }
+                right = mid;
+            }
+        }
+        if (left == nums.length){
+            return nums.length;
+        }
+        return -1;
+    }
 }

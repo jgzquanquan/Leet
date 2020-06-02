@@ -27,32 +27,35 @@ public class ReversePairs {
 
     private void mergeSort(int[] nums, int l, int r) {
         if (l == r) return;
-        int mid = (l + r) >> 1;
+        int mid = (l+r)>>1;
         mergeSort(nums, l, mid);
         mergeSort(nums, mid+1, r);
         merge(nums, l, mid, r);
     }
 
     private void merge(int[] nums, int l, int mid, int r) {
-        int[] help = new int[r - l + 1];
-        int i = r - l;
+        int[] help = new int[r-l+1];
         int p1 = mid;
         int p2 = r;
-        while (p1 >= l && p2 >= mid + 1){
+        int i = r-l;
+        while (p1 >= l && p2 >= mid+1){
             if (nums[p2] >= nums[p1]){
                 help[i--] = nums[p2--];
-            }else {
-                help[i--] = nums[p1--];
+            }else{
                 res += p2 - mid;
+                help[i--] = nums[p1--];
             }
         }
+
         while (p1 >= l){
             help[i--] = nums[p1--];
         }
+
         while (p2 >= mid+1){
             help[i--] = nums[p2--];
         }
-        for (int j=0; j<=r-l; j++){
+
+        for(int j=0; j<r-l+1; j++){
             nums[l+j] = help[j];
         }
     }
