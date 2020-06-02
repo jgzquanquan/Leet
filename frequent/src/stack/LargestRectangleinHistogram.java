@@ -1,3 +1,7 @@
+package stack;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Stack;
 
 /**
@@ -10,7 +14,7 @@ public class LargestRectangleinHistogram {
         if (heights == null || heights.length == 0){
             return maxArea;
         }
-        Stack<Integer> indexStack = new Stack<>();
+        Deque<Integer> indexStack = new ArrayDeque<>();
         indexStack.push(-1);
         for (int i=0; i<heights.length; i++){
             while (indexStack.peek() != -1 && heights[indexStack.peek()] > heights[i]){
