@@ -13,7 +13,7 @@ public class LRUCache extends LinkedHashMap<Integer,Integer> {
         this.capacity = capacity;
     }
 
-    public int get(int key) {Q
+    public int get(int key) {
         return super.getOrDefault(key,-1);
     }
 
